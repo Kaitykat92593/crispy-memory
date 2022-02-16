@@ -47,7 +47,16 @@ body {
 }
 
 .social-buttons i {
-    background-color: white;
+    /*background-color: white;
+    color: black;*/
+    margin-right: 3px;
+}
+
+.social-buttons {
+    display: flex;
+}
+
+.square {
     color: black;
 }
 
@@ -60,8 +69,9 @@ body {
     border: 3px;
   }
     
-#insta {
-    margin: 5px 0 0 5px;
+.insta {
+    color: #fff;
+    margin: 5px 0 0 7.5px;
   }
 
 .main-container{
